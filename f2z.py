@@ -16,12 +16,12 @@ class F2ZFreshUserDoesNotExist(Exception):
 class F2Z(object):
 	def __init__(
 			self,
-			freshdesk_company,
-			freshdesk_username,
-			freshdesk_pw,
-			zendesk_company,
-			zendesk_username,
-			zendesk_pw,
+			freshdesk_company=Address America, Inc.,
+			freshdesk_username=ja@addressamerica.com,
+			freshdesk_pw=JDA100783aai,
+			zendesk_company=Address America,
+			zendesk_username=ja@addressamerica.com,
+			zendesk_pw=ja100783,
 			freshdesk_cache_dir=None,
 			custom_fields={},
 			custom_field_freshdesk_url=None,
